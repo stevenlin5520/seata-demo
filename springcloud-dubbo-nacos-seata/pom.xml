@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>seata-demo</artifactId>
+        <groupId>com.steven.seata</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>springcloud-dubbo-nacos-seata</artifactId>
+    <modules>
+        <module>dubbo-common-service</module>
+        <module>business-dubbo-service</module>
+        <module>order-dubbo-service</module>
+        <module>stock-dubbo-service</module>
+    </modules>
+</project>
